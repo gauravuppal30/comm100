@@ -1,0 +1,25 @@
+.main-container {
+  /* position: relative; */
+  width: 100%;
+  padding-top: 50px;
+}
+.navbar {
+  width: 100%;
+  margin: 0 0 20px;
+  padding: 10px;
+  list-style: none;
+  background-color: #5d5d5d;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+}
+.nav-item {
+  border-bottom: 2px solid #5d5d5d;
+}
+.nav-item .active {
+  border-bottom: 2px solid #fff;
+}
+.nav-item a {
+  color: #fff;
+  padding: 10px;
+}

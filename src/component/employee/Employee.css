@@ -1,0 +1,18 @@
+.employee-details{
+    padding-top: 150px;
+    background-color: #ccc;
+    width: 21%;
+    margin: 2%;
+    border: 1px solid #000;
+    box-sizing: border-box;
+}
+.employee-details > div{
+    padding:5px 20px;
+    background-color: #fff;
+}
+
+.employee-group{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
